@@ -1,0 +1,27 @@
+
+.ml-0 {
+  margin-left: 0 !important;
+}
+
+.mr-0 {
+  margin-right: 0 !important;
+}
+ul {
+    padding-left: 0px;
+    li {
+        list-style: none;
+        padding: 10px;
+        margin-top: 2.5px;
+        margin-bottom: 2.5px;
+        background-color: #FFFAF0;
+        &.active {
+            background-color: #A52A2A;
+            color: white;
+        }
+    }
+}
+
+.scroll {
+    max-height: 100vh;
+    overflow-y: auto;
+}
